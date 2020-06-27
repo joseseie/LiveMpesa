@@ -23,9 +23,39 @@ class ProductController extends Controller
         $product = Product::find($request->product_id);
         $phone = $request->phone;
 
-        dd($product, $phone);
+        return $this->makePayment($phone, $product->price);
 
-        return response()->json(Product::all(), 200);
+    }
+
+    public function makePayment ($phone, $amount) {
+
+        $mpesa = new \Karson\MpesaPhpSdk\Mpesa();
+
+        $mpesa->setApiKey(env('MPESA_API_KEY', ''));
+        $mpesa->setPublicKey(env('MPESA_PUBLIC_KEY', ''));
+        $mpesa->setEnv('test');// 'live' production environment
+
+        $shortcode = env('MPESA_SERVICE_PROVIDER_CODE', ''); //Código da instituição atribuida pelo MPesa, nunca mude o 171717.  input_ServiceProviderCode
+        $invoice_id = env('MPESA_INITIATOR_IDENTIFIER', ''); // Id da transação entre cliente e empresa, só pode se usar uma vez ou input_TransactionReference
+
+        $phone_number = '258' . $phone; // contacto, ou input_CustomerMSISDN.
+
+        $strRand = rand(0, 100);
+
+        $reference_id = 'LiveLaravelProduct' . $strRand; // referência da transação (não pode ter espaços).
+
+        $result = $mpesa->c2b($invoice_id, $phone_number, $amount, $reference_id, $shortcode);
+
+        if ($result->status == "200" OR $result->status == "201"){
+
+            return response()->json(['message' => 'Transação feita com sucesso'], $result->status);
+
+        } else {
+
+            return response()->json(['message' => 'Infelizmente, ocorreu um erro, o pagamento ainda não foi feito, tenta novamente!'], $result->status);
+
+        }
+
     }
 
     /**

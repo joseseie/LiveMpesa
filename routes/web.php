@@ -25,3 +25,14 @@ Route::resource('/productdetails','ProductDetailsController');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+//Route::middleware(['auth:api'])->group(function () {
+
+// Somente users com permissões especiais
+//    Route::middleware(['scopes:can-get-users'])->group(function () {
+
+
+//    });
+
+
+//});

@@ -21,21 +21,13 @@ Route::resource('/cart','CartController');
 Route::resource('/checkout','CheckoutController');
 Route::resource('/productdetails','ProductDetailsController');
 
+Route::post('/product/pay','ProductController@pay');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-//Route::middleware(['auth:api'])->group(function () {
 
-// Somente users com permissões especiais
-//    Route::middleware(['scopes:can-get-users'])->group(function () {
-
-
-//    });
-
-
-//});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

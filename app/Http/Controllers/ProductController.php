@@ -17,6 +17,17 @@ class ProductController extends Controller
         return response()->json(Product::all(), 200);
     }
 
+    public function pay(Request $request)
+    {
+
+        $product = Product::find($request->product_id);
+        $phone = $request->phone;
+
+        dd($product, $phone);
+
+        return response()->json(Product::all(), 200);
+    }
+
     /**
      * Store a newly created resource in storage.
      *

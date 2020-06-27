@@ -7,14 +7,14 @@
                 <h2>{{ $product->price }} MZN</h2>
                 <p>{{ $product->name }}</p>
                 <a href="javascript:;"  class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                <a href="javascript:;"  class="btn btn-danger add-to-cart" style="background: red;color: white">Pagar</a>
+                <a href="javascript:;"  class="btn btn-danger add-to-cart" style="background: red;color: white" data-toggle="modal" data-target="#myModal{{ $product->id }}">Pagar</a>
             </div>
             <div class="product-overlay">
                 <div class="overlay-content">
                     <h2>{{ $product->price }} MZN</h2>
                     <p>{{ $product->name }}</p>
                     <a href="javascript:;"  class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                    <a href="javascript:;" class="btn btn-danger add-to-cart" style="background: white;color: red">Pagar (MPESA)</a>
+                    <a href="javascript:;" class="btn btn-danger add-to-cart" style="background: white;color: red" data-toggle="modal" data-target="#myModal{{ $product->id }}">Pagar (MPESA)</a>
                 </div>
             </div>
         </div>
@@ -25,4 +25,51 @@
             </ul>
         </div>
     </div>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal{{ $product->id }}">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Seu contacto</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <form method="POST" action="/product/pay">
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    @csrf
+
+                    <input type="hidden" name="product_id" value="{{ $product->id }}">
+
+                    <div class="form-group row">
+                        <label for="phone" class="col-md-4 col-form-label text-md-right">
+                            Seu número:
+                        </label>
+
+                        <div class="col-md-6">
+                            <input id="phone" type="number" class="form-control" name="phone" placeholder="84/85" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">
+                            Pagar
+                        </button>
+                    </div>
+
+
+
+                </div>
+                <!-- Modal footer -->
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
 </div>

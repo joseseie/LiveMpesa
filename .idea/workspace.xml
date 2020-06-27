@@ -2,100 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5a796ac-653d-49fe-b00b-85894c199d36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/blog-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/contact-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/css/price-range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/404/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/blog/blog-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/blog/blog-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/blog/blog-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/blog/man-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/blog/man-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/blog/man-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/blog/man-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/blog/socials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/cart/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/cart/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/cart/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/bg_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/gallery1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/gallery2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/gallery3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/gallery4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/girl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/girl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/girl3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/iframe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/iframe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/iframe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/iframe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/partner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/partner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/partner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/partner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/recommend1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/recommend2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/recommend3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/sale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/searchicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/home/shipping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/product-details/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/product-details/new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/product-details/rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/product-details/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/product-details/similar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/product-details/similar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/product-details/similar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/shop/advertisement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/shop/product10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/shop/product11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/shop/product12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/shop/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/shop/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/images/shop/product9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/js/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/js/price-range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/product-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/sendemail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/template/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LiveMpesa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LiveMpesa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,16 +22,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/template/js/main.js">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="110">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -130,6 +53,9 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -231,6 +157,20 @@
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/tcg/voyager" />
+      <path value="$PROJECT_DIR$/vendor/larapack/hooks" />
+      <path value="$PROJECT_DIR$/vendor/larapack/doctrine-support" />
+      <path value="$PROJECT_DIR$/vendor/larapack/voyager-hooks" />
+      <path value="$PROJECT_DIR$/vendor/arrilot/laravel-widgets" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -249,11 +189,6 @@
             <path>
               <item name="LiveMpesa" type="b2602c69:ProjectViewProjectNode" />
               <item name="LiveMpesa" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="LiveMpesa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiveMpesa" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -281,6 +216,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f5a796ac-653d-49fe-b00b-85894c199d36" name="Default" comment="" />
@@ -293,11 +231,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208000" />
+    <option name="totallyTimeSpent" value="1753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -305,8 +242,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.56363636" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -319,6 +256,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,8 +265,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/template/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/template/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
         </state>
       </provider>
     </entry>

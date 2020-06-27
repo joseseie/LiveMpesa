@@ -20,3 +20,8 @@ Route::resource('/','HomeController');
 Route::resource('/cart','CartController');
 Route::resource('/checkout','CheckoutController');
 Route::resource('/productdetails','ProductDetailsController');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

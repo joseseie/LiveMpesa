@@ -23,6 +23,12 @@ header ("Access-Control-Allow-Headers: x-csrf-token, x-requested-with, X-CSRF-TO
 // Rotas de API
 // =========================================================
 
-Route::resources([
-    'products'         => 'ProductController',
-]);
+
+
+Route::middleware(['auth:api'])->group(function () {
+
+    Route::resources([
+        'products'         => 'ProductController',
+    ]);
+
+});

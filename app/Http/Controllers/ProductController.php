@@ -66,7 +66,7 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //TODO: Por implementar a adição
     }
 
     /**
@@ -77,7 +77,7 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        //
+        //TODO: Por implementar a busca de detalhes específicos.
     }
 
     /**
@@ -89,7 +89,7 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        //TODO: Por implementar a actualização
     }
 
     /**
@@ -100,6 +100,6 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        //
+        //TODO: Por implementar a remoção
     }
 }

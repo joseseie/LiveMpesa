@@ -29,5 +29,7 @@ Route::middleware(['auth:api'])->group(function () {
     Route::resources([
         'products'         => 'ProductController',
     ]);
+    Route::post('/product/pay','ProductController@pay');
 
 });
+

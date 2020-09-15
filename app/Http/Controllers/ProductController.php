@@ -66,7 +66,13 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //TODO: Por implementar a adição
+        return response()->json(Product::create($request->only([
+            'name',
+            'price',
+            'type_id',
+            'image_url',
+            'description'
+        ])), 201);
     }
 
     /**
@@ -77,7 +83,7 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        //TODO: Por implementar a busca de detalhes específicos.
+        return response()->json(Product::find($id));
     }
 
     /**
@@ -89,7 +95,13 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //TODO: Por implementar a actualização
+        return response()->json(Product::where('id', $id)->update($request->only([
+            'name',
+            'price',
+            'type_id',
+            'image_url',
+            'description'
+        ])));
     }
 
     /**
@@ -100,6 +112,7 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        //TODO: Por implementar a remoção
+        Product::destroy($id);
+        return response()->json(['message' => 'Produto deletado com sucesso'], 200);
     }
 }
